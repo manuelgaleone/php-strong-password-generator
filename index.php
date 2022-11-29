@@ -116,6 +116,19 @@ include __DIR__ . "/functions.php";
                                 <button class="genera_button" type="submit">Genera</button>
                             </form>
                         </div>
+                        <div class="col-6 left_text">
+                            <p>
+                                Consenti ripetizioni di uno o più caratteri:
+                            </p>
+                        </div>
+                        <div class="col-6 right_input">
+                            <form action="index.php">
+                                <label for="ripetizione">
+                                    <input type="radio" name="ripetizione" id="ripetizione">
+                                </label>
+                                <input type="checkbox" name="lettere" id="lettere">
+                            </form>
+                        </div>
                         <div class="col-12 left my-3">
                             <?php if (!isset($_GET["length"])) { ?>
                                 <h4>
