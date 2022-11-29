@@ -117,7 +117,7 @@ include __DIR__ . "/functions.php";
                             </form>
                         </div>
                         <div class="col-12 left my-3">
-                            <?php if (empty($_GET["length"])) { ?>
+                            <?php if (!isset($_GET["length"])) { ?>
                                 <h4>
                                     Scrivi una lunghezza.
                                 </h4>
