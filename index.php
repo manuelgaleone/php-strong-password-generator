@@ -124,7 +124,7 @@ $generatedPassword = substr(str_shuffle($elements), 0, $_GET["length"]);
                                 </h4>
                             <?php } else { ?>
                                 <h4>
-                                    La tua Password è: <?php echo $generatedPassword ?>
+                                    La tua Password è: <strong><?php echo $generatedPassword ?></strong>.
                                 </h4>
                             <?php } ?>
                         </div>
