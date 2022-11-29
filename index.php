@@ -118,7 +118,7 @@ $generatedPassword = substr(str_shuffle($elements), 0, $_GET["length"]);
                             </form>
                         </div>
                         <div class="col-12 left my-3">
-                            <?php if ($_GET["length" === 0]) { ?>
+                            <?php if (empty($_GET["length"])) { ?>
                                 <h4>
                                     Scrivi una lunghezza.
                                 </h4>
